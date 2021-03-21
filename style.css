@@ -135,6 +135,7 @@ padding: .5rem;
   color: rgba(255, 255, 255, .6);
   font-size: 1rem;
   padding: 2rem;
+  text-align: justify;
 }
 
 .accordion-item:target .answer{
@@ -3916,8 +3917,8 @@ left: -155px;height: 50px;margin-top: 540px;
     font-size: 7px;
     letter-spacing: 1px;
     position: relative;
-    top: -310px;
-    
+    top: -320px;
+    text-align: justify;
     }
 
 /*------------------------------
@@ -3963,7 +3964,7 @@ indihome
   flex-wrap: wrap;
   align-items: center;
   border-radius: 6px;
-  height: 130%;
+  height: 180%;
 }
 
 
@@ -3997,29 +3998,38 @@ padding: .5rem;
 }
 
 .answer{
+  
   max-height: 0;
   overflow: hidden;
-  position: relative;
+  position: static;
   background-color: rgb(92, 12, 36);
   transition: max-height 650ms;
-  
+  margin: 20px auto;
+  padding-left: 10px;
+
 }
 
 .answer ::before{
   content: "";
   position: absolute;
-  width: .6rem;
+  width: .2rem;
   height: 90%;
   background-color: #8fc460;
   top: 50%;
-  left: 0;
+  left: -15px;
   transform: translateY(-50%);
+  margin-left: -10px;
+  
 }
 
 .answer p{
-  color: rgba(255, 255, 255, .6);
-  font-size: 1rem;
-  padding: 2rem;
+  color: rgba(223, 213, 213, 0.6);
+  font-size: 5px;
+  width: 50px;
+  height: 100px;
+  display: inline;
+  top: -10px;
+  
 }
 
 /*----
@@ -4072,7 +4082,7 @@ Slide Animation
 
 
   .banner__copy{ float:left; height:60%;display: table; position: absolute;
-    margin-left: -965px; position: absolute; margin-top: 830px; }
+    margin-left: -665px; position: absolute; margin-top: 830px; }
   .banner__copy__text{display: table-cell; vertical-align: middle;padding: 30px;}
   .banner__copy img{ width: 15%;
   margin-top: -855px;
@@ -4144,6 +4154,7 @@ margin-top: 2px;
     margin-left: -10px;
     
   }
+
 
 .navi{
   width: 100%;
