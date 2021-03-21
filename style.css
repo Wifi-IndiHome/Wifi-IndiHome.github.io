@@ -3007,6 +3007,7 @@ Smart phone
 ------------------------------*/
 @media (max-width: 768px){
 
+  
 
   .doble__copy{max-width: 200px;margin: 0px auto; margin-top: 2px; background: #fff; padding: 200px 40px;position :relative; z-index: 3; }
 
@@ -3988,6 +3989,11 @@ indihome
   justify-content: space-between;
   padding: 1rem 0;
 }
+
+.justifi { padding: 700px; position: absolute;
+width: 400px; left: -300px; color: rgb(34, 27, 27); background: #000;
+}
+
 .accordion-link i{
 color: #e7d5ff;
 padding: .5rem;
@@ -4001,12 +4007,9 @@ padding: .5rem;
   
   max-height: 0;
   overflow: hidden;
-  position: static;
   background-color: rgb(92, 12, 36);
   transition: max-height 650ms;
-  margin: 20px auto;
-  padding-left: 10px;
-
+  text-decoration: none;
 }
 
 .answer ::before{
@@ -4016,20 +4019,20 @@ padding: .5rem;
   height: 90%;
   background-color: #8fc460;
   top: 50%;
-  left: -15px;
+  left: 20px;
   transform: translateY(-50%);
-  margin-left: -10px;
+  
   
 }
 
 .answer p{
-  color: rgba(223, 213, 213, 0.6);
-  font-size: 5px;
-  width: 50px;
-  height: 100px;
-  display: inline;
+  color: rgb(201, 185, 185);
+  font-size: 7px;
+  width: 230px;
+  height: 160px;
   top: -10px;
-  
+  position: relative;
+  left: -35px;
 }
 
 /*----
@@ -4082,7 +4085,7 @@ Slide Animation
 
 
   .banner__copy{ float:left; height:60%;display: table; position: absolute;
-    margin-left: -665px; position: absolute; margin-top: 830px; }
+    margin-left: -675px; position: absolute; margin-top: 830px; }
   .banner__copy__text{display: table-cell; vertical-align: middle;padding: 30px;}
   .banner__copy img{ width: 15%;
   margin-top: -855px;
