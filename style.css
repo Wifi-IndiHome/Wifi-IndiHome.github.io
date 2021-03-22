@@ -4021,7 +4021,7 @@ padding: .5rem;
   width: .2rem;
   height: 90%;
   background-color: #8fc460;
-  top: 50%;
+  top: 70%;
   left: 20px;
   transform: translateY(-50%);
   
@@ -4031,9 +4031,9 @@ padding: .5rem;
 .answer p{
   color: rgb(201, 185, 185);
   font-size: 5px;
-  width: 230px;
-  height: 100px;
-  top: -10px;
+  width: 160px;
+  height: 150px;
+  top: -30px;
   position: relative;
   left: -35px;
 
