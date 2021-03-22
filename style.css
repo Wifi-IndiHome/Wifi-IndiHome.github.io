@@ -51,7 +51,7 @@ margin-left: 16px;
 margin-top: 20px;
 font-size: 20px;
 letter-spacing: 1px;
-
+margin-bottom: 30px;
 }
 
 *,
@@ -4093,7 +4093,7 @@ Slide Animation
   position: absolute; size: 10px;
   }
   .section2{
-    width: 50%; 
+    width: 80%; 
     height: 100vh;
     background: rgb(133, 29, 60);
     display: flex;
