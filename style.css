@@ -3920,6 +3920,8 @@ left: -155px;height: 50px;margin-top: 540px;
     position: relative;
     top: -320px;
     text-align: justify;
+
+    z-index: 7;
     }
 
 /*------------------------------
@@ -3976,6 +3978,7 @@ indihome
   margin-bottom: 1rem;
   padding: 1rem;
   box-shadow: .5rem 2px .5rem rgba(0,0,0.1) ;
+  margin-left: .2rem;
 }
 
 .accordion-link{
